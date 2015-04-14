@@ -21,6 +21,9 @@ public class UserDTO extends BaseDTO {
 
 	private String mobileNo;
 
+
+private String phoneNo;
+
 	private Long roleId;
 
 	private int unsuccessfulLogin;
@@ -128,5 +131,15 @@ public class UserDTO extends BaseDTO {
 	public void setLastLoginIP(String lastLoginIP) {
 		this.lastLoginIP = lastLoginIP;
 	}
+
+public String getphoneNo() {
+		return phoneNo;
+	}
+
+	public void setphoneNo(String phoneNo) {
+		this.phoneNo = phoneNo;
+	}
+
+
 
 }
